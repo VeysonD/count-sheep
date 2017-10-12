@@ -1,0 +1,27 @@
+{
+  "name": "count-sheep",
+  "version": "1.0.0",
+  "description": "Count sheep until you sleep WEB VERSION",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeysonD/count-sheep.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Ricardo Gallegos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeysonD/count-sheep/issues"
+  },
+  "homepage": "https://github.com/VeysonD/count-sheep#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "react": "^16.0.0",
+    "redux": "^3.7.2"
+  }
+}
