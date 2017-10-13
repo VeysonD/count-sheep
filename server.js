@@ -1,8 +1,6 @@
 // this is where it all begins
-import env from 'process-env';
+require('dotenv').config();
 import app from './server/index';
 
-// start the local environment
-env.config();
 
-var port =
+var port = process.env.PORT || 7711;
