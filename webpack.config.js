@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -20,6 +21,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(paths.SRC, 'index.html'),
     }),
+    // new webpack.HotModuleReplacementPlugin(),
+    // new webpack.NoEmitOnErrorsPlugin()
   ],
   // Loaders configuration
   module: {
