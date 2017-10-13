@@ -7,7 +7,7 @@
     "build": "webpack",
     "eslint": "eslint",
     "test": "test",
-    "webpack-server": "webpack-dev-server"
+    "dev:1": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
