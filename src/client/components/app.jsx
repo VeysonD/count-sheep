@@ -9,9 +9,9 @@ class App extends Component {
     this.testFunction = this.testFunction.bind(this);
   }
 
-  // testFunction() {
-  //   console.log('this is a test function');
-  // }
+  testFunction() {
+    console.log('this is a test function');
+  }
   render() {
     return (
       <div>
