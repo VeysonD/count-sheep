@@ -11,7 +11,7 @@ const paths = {
 
 // Webpack configuration
 module.exports = {
-  entry: path.join(paths.CLIENT, 'app.js'),
+  entry: path.join(paths.CLIENT, 'index.jsx'),
   output: {
     path: paths.DIST,
     filename: 'app.bundle.js'
