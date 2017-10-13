@@ -4,5 +4,8 @@ node_modules
 #environment
 .env
 
+#debug log
+npm-debug.log
+
 #bundle
 dist
