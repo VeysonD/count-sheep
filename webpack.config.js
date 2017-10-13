@@ -16,10 +16,27 @@ module.exports = {
     filename: 'app.bundle.js'
   },
   plugins: [
+    // use html plugin
     new HtmlWebpackPlugin({
       template: path.join(paths.SRC, 'index.html'),
     }),
   ],
+  // Loaders configuration
+  module: {
+    rules: [
+      {
+        test: /\.(js|jsx)$/,
+        exclude: /node_modules/,
+        use: [
+          'babel-loader',
+        ],
+      },
+    ],
+  },
+  // Enable importing JS files without specifying their extensions
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   // devServer: {
   //   contentBase: paths.SRC,
   // },
