@@ -6,11 +6,17 @@ import testImage from '../../assets/test.png';
 class App extends Component {
   constructor(props) {
     super(props);
+    // this.state = {
+    //   loggedIn: false
+    // };
     this.testFunction = this.testFunction.bind(this);
   }
 
   testFunction() {
-    console.log('this is a test function');
+    // this.setState({
+    //   loggedIn: true
+    // });
+    console.log(this.props);
   }
   render() {
     return (
