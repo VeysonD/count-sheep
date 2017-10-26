@@ -18,4 +18,4 @@ ENV PORT 7711
 ENV HOST 127.0.0.1
 
 # Run node when the container launches
-CMD ["node", "index.js"]
+CMD ["node", "server.js"]
