@@ -8,7 +8,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const paths = {
   DIST: path.resolve(__dirname, 'dist'),
   CLIENT: path.resolve(__dirname, 'src/client'),
-  SRC: path.resolve(__dirname, 'src')
+  SRC: path.resolve(__dirname, 'src'),
 };
 
 // Webpack configuration
@@ -16,7 +16,7 @@ module.exports = {
   entry: path.join(paths.CLIENT, 'index.jsx'),
   output: {
     path: paths.DIST,
-    filename: 'app.bundle.js'
+    filename: 'app.bundle.js',
   },
   plugins: [
     // use html plugin
