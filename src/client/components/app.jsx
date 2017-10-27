@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Auth from '../../../server/auth/auth';
 
 import '../../css/style.css';
 import testImage from '../../assets/test.png';
@@ -10,6 +11,11 @@ class App extends Component {
     //   loggedIn: false
     // };
     this.testFunction = this.testFunction.bind(this);
+  }
+
+  componentDidMount() {
+    const auth = new Auth();
+    auth.login();
   }
 
   testFunction() {
