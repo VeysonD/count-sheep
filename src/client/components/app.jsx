@@ -14,8 +14,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const auth = new Auth();
-    auth.login();
+    // const auth = new Auth();
+    // auth.login();
   }
 
   testFunction() {
