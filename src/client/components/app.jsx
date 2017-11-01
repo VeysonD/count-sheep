@@ -16,7 +16,7 @@ class App extends Component {
   componentDidMount() {
     // const auth = new Auth();
     // auth.login();
-    console.log('Component did mount');
+    // console.log('Component did mount');
   }
 
   testFunction() {
