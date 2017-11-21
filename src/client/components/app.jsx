@@ -28,7 +28,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        Hello World
+        Hello World test
         <img src={testImage} alt="Commander Keen" />
       </div>
     );
