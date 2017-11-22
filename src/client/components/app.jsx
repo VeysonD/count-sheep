@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Auth from '../../../server/auth/auth';
+// import Auth from '../../../server/auth/auth';
 
 import '../../css/style.css';
 import testImage from '../../assets/test.png';
@@ -28,7 +28,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        Hello World test
+        Hello World
         <img src={testImage} alt="Commander Keen" />
       </div>
     );
